@@ -1,0 +1,126 @@
+.fundo {
+    display: flex;
+    flex-direction: column;
+
+
+    background: linear-gradient(to bottom, #CFA7CA, #A791C0);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+
+
+    height: 100vh;
+
+
+
+    .logo {
+
+        width: 247px;
+        height: 72px;
+
+
+
+    }
+
+    .inicio {
+        display: flex;
+        flex-direction: row;
+
+        justify-content: space-between;
+
+        height: 10em;
+
+    }
+
+    .botoes {
+        
+
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-around;
+        width: 25em;
+        margin-top: 15px;
+
+        
+    }
+
+    .pag-inicial {
+        color: #79458B;
+        background-color: #FFFFFF;
+        padding: 10px 30px;
+
+        border-radius: 2em;
+        border: none;
+
+        box-shadow: #b0a7a1 0px 2px 2px 2px;
+    }
+
+    .pag-inicial:hover {
+        cursor: pointer;
+
+        width: 12em;
+        height: 3em;
+
+
+    }
+
+    .imagem-1 {
+        position: absolute;
+        top: 23em;
+        left: 3em;
+        width: 406px;
+        z-index: 2;
+
+    }
+
+    .imagem-2 {
+        z-index: 0;
+        position: absolute;
+
+        right: 0px;
+        top: 10em;
+
+        width: 405px;
+        height: 321px;
+
+    }
+
+
+    .meio {
+        z-index: 1;
+        background: white;
+
+        width: 473px;
+        height: 425px;
+
+        background: #FFFFFF;
+        box-shadow: 0px 0px 7.31527px #554f5a78;
+        border-radius: 32.9187px;
+
+        align-self: center;
+        margin-top: 5em;
+    }
+
+    .texto1 {
+        text-align: center;
+        color: black;
+        padding: 10px;
+    }
+
+    .texto2 {
+
+        color: black;
+        padding: 10px;
+    }
+
+    .texto3 {
+
+        color: black;
+        padding: 10px;
+    }
+
+    .input{
+        color:#b0a7a1  ;
+    }
+}
