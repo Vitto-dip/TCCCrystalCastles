@@ -103,11 +103,11 @@ a se valorizarem mais.  Com 10 anos de profissão e mais de 2 milhões de seguid
                 </div>
 
                 <div className="integrantes">
-                    <Equipe integrante='' nome='Mateus Andrade' função='DBA' />
-                    <Equipe integrante='' nome='Bruno Virgilio' função='DBA' />
-                    <Equipe integrante='' nome='Jennifer Oliveira' função='Web Designer' />
-                    <Equipe integrante='' nome='Eduardo César' função='Backend' />
-                    <Equipe integrante='' nome='Victor de Paula' função='Full-Stack' />
+                    <Equipe className='integrante-1' integrante='/assets/images/image 19.png' nome='Mateus Andrade' função='DBA' />
+                    <Equipe className='integrante-2' integrante='/assets/images/image 18.png' nome='Bruno Virgilio' função='DBA' />
+                    <Equipe className='integrante-3' integrante='/assets/images/image 17.png' nome='Jennifer Oliveira' função='Web Designer' />
+                    <Equipe className='integrante-4' integrante='/assets/images/image 21.png' nome='Eduardo César' função='Backend' />
+                    <Equipe className='integrante-5' integrante='/assets/images/image 20.png' nome='Victor de Paula' função='Full-Stack' />
                 </div>
 
             </section>
