@@ -1,15 +1,15 @@
-import { Principal } from "./styled.js"
+import './index.scss';
 
 
-export default function () {
+export default function Cadastro () {
     return (
-        <Principal>
+        <main className='pag-Cadastro'>
             <div>
                 <img className="logo" src="/assets/images/zyro-image__3_-removebg-preview (2) 2.png" alt="logo" />
             </div>
             <section className="global">
                 <section className="lado-esquerdo">
-                    <img className="computadozinho" src="/assets/images/zyro-image__8_-removebg-preview 1.png" alt="imagem-de-fundo" />
+                    <img className="computadozinho" src="/assets/images/pczin.png" alt="imagem-de-fundo" />
                     <p>Te escutando de onde estiver, quando puder.</p>
                     <p>Seja bem vindo!</p>
                     <button>Voltar para a página inicial</button>
@@ -48,6 +48,6 @@ export default function () {
                     <button>Cadastrar-se</button>
                 </section>'
             </section>
-        </Principal>
+        </main>
     )
 }
