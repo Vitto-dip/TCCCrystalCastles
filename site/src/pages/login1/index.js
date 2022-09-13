@@ -1,9 +1,9 @@
-import { Principal } from './styled.js'
+import './index.scss'
 
 
 export default function() {
     return (
-        <Principal>
+        <main className='pag-login'>
             <img className="capa-fundo" src="/assets/images/zyro-image (7) 2.png" alt="capa-de-fundo" />
             <section>
                 <div className="logo">
@@ -27,6 +27,6 @@ export default function() {
                 </button>
                 <p>Não tem uma conta? Cadastre-se <a>aqui</a> </p>
             </section>
-        </Principal>
+        </main>
     )
 }

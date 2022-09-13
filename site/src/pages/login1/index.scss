@@ -1,10 +1,5 @@
+.pag-login{
 
-
-import styled from 'styled-components'
-
-
-
-const Principal = styled.main`
     display: flex;
     flex-direction: row;
 
@@ -90,6 +85,4 @@ const Principal = styled.main`
         height: 51px;
         border-radius: 15px;
     }
-`;
-
-export { Principal };
+}

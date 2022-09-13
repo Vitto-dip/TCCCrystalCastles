@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap');
+
+.pag-loginADM {
+    background-image: linear-gradient(180deg, #CFA7CA 29.17%, #9C75C8 96.87%);
+
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 0px;
+
+        img{
+            margin-left: 20px;
+        }
+
+        button {
+            border: none;
+            border-radius: 20em;
+            font-family: 'Mulish';
+            padding: 15px;
+            font-size: 1em;
+            font-weight: bold;
+            text-align: center;
+            align-items: center;
+            margin-right: 60px;
+            background-color: #ffffff;
+            color: #79458B;
+        }
+
+    }
+
+
+}
