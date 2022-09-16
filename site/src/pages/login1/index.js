@@ -1,4 +1,5 @@
-import './index.scss'
+import './index.scss';
+import { Link } from 'react-router-dom';
 
 
 export default function() {
@@ -11,7 +12,7 @@ export default function() {
                     <p className="logo-texto">Acesse de onde estiver!</p>
                 </div>
                 <div>
-                    <h2>Entrar</h2>
+                    <h2>Entrar - Paciente</h2>
                     <div className='input'>
                         <label>E-mail</label>
                         <input type="text" />
@@ -26,6 +27,7 @@ export default function() {
                     <img className="icone-sair" src="/assets/images/Frame 1 (1).png" alt="sair" />
                 </button>
                 <p>Não tem uma conta? Cadastre-se <a>aqui</a> </p>
+                <Link to='/'>Entrar como voluntário</Link> 
             </section>
         </main>
     )

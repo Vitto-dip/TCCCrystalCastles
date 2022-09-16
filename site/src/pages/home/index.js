@@ -1,5 +1,6 @@
 import './index.scss'
 import Carousel from 'react-multi-carousel'
+import { Link } from 'react-router-dom'
 
 import Roxinho from '../components/faixa2/index.js';
 import Pscologos from '../components/faixa3/index.js';
@@ -14,7 +15,7 @@ export default function Home() {
                     <img className="logo-img" src="/assets/images/logonat.png" alt="logo" />
                     <div className="usuario">
                         <img src="/assets/images/do-utilizador (1) 1.png" alt="inscreva-se" />
-                        <button className="inscreva-se" > Entre ou cadastre-se </button>
+                        <Link to='/login' > Entre ou cadastre-se </Link>
                     </div>
                 </div>
                 <div className="texto-faixa-1">

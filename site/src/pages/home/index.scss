@@ -5,6 +5,10 @@
     display: flex;
     flex-direction: column;
 
+    a {
+        color: white;
+    }
+
     .faixa-1 {
         background-image: url('../../../public/assets/images/Rectangle\ 43.png');
         background-size: 100%;
@@ -65,7 +69,7 @@
         width: 420px;
     }
 
-    .texto-faixa-1 > p {
+    .texto-faixa-1>p {
         margin: 0px;
     }
 
@@ -120,7 +124,7 @@
     .faixa-2 {
         display: flex;
         justify-content: center;
-        
+
         display: inline-block;
 
         height: 700px;
@@ -195,13 +199,13 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        
+
         padding-top: 4em;
 
         padding-bottom: 50px;
     }
 
-    .faixa-6-titulo{
+    .faixa-6-titulo {
         font-size: 24px;
         font-family: 'Baloo Thambi 2';
 
@@ -252,7 +256,7 @@
     .rodape {
         display: flex;
         flex-direction: column;
-        
+
         background-color: #9D77BB;
 
         color: #FFFFFF;
@@ -284,7 +288,7 @@
         text-decoration: underline;
         justify-content: center;
     }
-    
+
     .Crystal-Castles {
         align-self: flex-end;
 
